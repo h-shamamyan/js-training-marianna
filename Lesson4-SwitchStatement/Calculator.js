@@ -4,7 +4,7 @@ let userInput1 = +prompt("Enter the first number: ");
 let matheOperatorInput = prompt("Enter an operator: ") ;
 let userInput3 = prompt("Enter the second number: ") 
   
-
+// userInput3 is not converted to a number (let userInput3 = prompt("Enter the second number: ") should be Number(prompt(...))).
 
 switch(matheOperatorInput){
   case '+' : 
